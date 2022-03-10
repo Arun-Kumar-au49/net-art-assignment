@@ -1,0 +1,15 @@
+.wrapper{
+width:100%;
+}
+.wrapper .container{
+ max-width: 90vw;
+ margin:0 auto;   
+}
+
+@media screen and (min-width: 961px){
+    .wrapper .container{
+        max-width: 96vw;
+        margin:0 auto;   
+       }
+
+}

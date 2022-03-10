@@ -1,0 +1,26 @@
+.header-container {
+  header {
+    width: 100%;
+    height: auto;
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    text-align: center;
+    max-width: 500px;
+    margin:0 auto;
+  }
+}
+// 576px for extra small devices like portrait mode phones
+
+// 768px for small devices like landscape phones
+
+// 992px for medium devices like tablets
+
+// 1200px for large devices like desktops
+
+// 2560px for extra large devices like large desktops
